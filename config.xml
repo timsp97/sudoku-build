@@ -2,9 +2,9 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "de.timsp.sudoku"
-    version     = "0.1.1" >
+    version     = "0.1.2" >
 
-<!-- versionCode is optional and Android only -->
+  <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
 
   <name>Sudoku</name>
 
@@ -16,7 +16,10 @@
       Tim Spickermann
   </author>
 
-  <preference name="BackgroundColor" value="0xeeeeeeff"/>
+  <preference name="BackgroundColor" value="0xffeeeeee"/>
+  <preference name="StatusBarOverlaysWebView" value="true" />
+
+  <splash src="res/splash.png" />
 
   <platform name="android">
     <icon src="res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
@@ -27,7 +30,6 @@
 
     <preference name="InAppBrowserStorageEnabled" value="false"/>
     <preference name="LoadingDialog" value="Sudoku,Sudoku wird geladen"/>
-    <preference name="ShowTitle" value="true"/>
     <preference name="OverrideUserAgent" value="Mozilla/5.0 My Browser" />
     <preference name="AppendUserAgent" value="My Browser" />
   </platform>
