@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "de.timsp.sudoku"
+    version     = "0.1.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Sudoku</name>
+
+  <description>
+      A fully configurable sudoku game.
+  </description>
+
+  <author href="http://timsp.de" email="sudoku@timsp.de">
+      Tim Spickermann
+  </author>
+  
+  <platform name="android">
+    <icon src="res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
+    <icon src="res/mipmap-hdpi/ic_launcher.png" density="hdpi" />
+    <icon src="res/mipmap-xhdpi/ic_launcher.png" density="xdpi" />
+    <icon src="res/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
+    <icon src="res/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+  </platform>
+
+</widget>
