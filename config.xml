@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "de.timsp.sudoku"
-    version     = "0.1.0" >
+    version     = "0.1.1" >
 
 <!-- versionCode is optional and Android only -->
 
@@ -15,13 +15,21 @@
   <author href="http://timsp.de" email="sudoku@timsp.de">
       Tim Spickermann
   </author>
-  
+
+  <preference name="BackgroundColor" value="0xeeeeeeff"/>
+
   <platform name="android">
     <icon src="res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
     <icon src="res/mipmap-hdpi/ic_launcher.png" density="hdpi" />
     <icon src="res/mipmap-xhdpi/ic_launcher.png" density="xdpi" />
     <icon src="res/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi" />
     <icon src="res/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
+
+    <preference name="InAppBrowserStorageEnabled" value="false"/>
+    <preference name="LoadingDialog" value="Sudoku,Sudoku wird geladen"/>
+    <preference name="ShowTitle" value="true"/>
+    <preference name="OverrideUserAgent" value="Mozilla/5.0 My Browser" />
+    <preference name="AppendUserAgent" value="My Browser" />
   </platform>
 
 </widget>
