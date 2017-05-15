@@ -4,7 +4,7 @@
     id          = "de.timsp.sudoku"
     version     = "0.1.2" >
 
-  <plugin name="org.apache.cordova.statusbar" spec="0.1.4" source="pgb" />
+  <plugin name="cordova-plugin-statusbar" />
 
   <name>Sudoku</name>
 
