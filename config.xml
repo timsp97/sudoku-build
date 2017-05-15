@@ -4,7 +4,7 @@
     id          = "de.timsp.sudoku"
     version     = "0.1.2" >
 
-  <plugin name="cordova-plugin-statusbar" />
+  <plugin name="cordova-plugin-statusbar" spec="2.2.3" />
 
   <name>Sudoku</name>
 
@@ -17,9 +17,11 @@
   </author>
 
   <preference name="BackgroundColor" value="0xffeeeeee"/>
-  <preference name="StatusBarOverlaysWebView" value="true" />
+  <preference name="StatusBarBackgroundColor" value="#ff0000" />
 
   <splash src="res/splash.png" />
+  <splash src="res/splash.png" platform="android" />
+  <preference name="SplashScreenDelay" value="2000" />
 
   <platform name="android">
     <icon src="res/mipmap-mdpi/ic_launcher.png" density="mdpi" />
