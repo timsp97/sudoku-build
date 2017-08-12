@@ -2,14 +2,14 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "de.timsp.sudoku"
-    version     = "0.1.2" >
+    version     = "0.2.0" >
 
   <plugin name="cordova-plugin-statusbar" spec="2.2.3" />
 
   <name>Sudoku</name>
 
   <description>
-      A fully configurable sudoku game.
+      Sudoku mit variabler Größe, verschiedenen Symbolen, Hinweisen, Bestzeiten und vielem mehr.
   </description>
 
   <author href="http://timsp.de" email="sudoku@timsp.de">
@@ -17,7 +17,7 @@
   </author>
 
   <preference name="BackgroundColor" value="0xffeeeeee"/>
-  <preference name="StatusBarBackgroundColor" value="#ff0000" />
+  <preference name="StatusBarBackgroundColor" value="#eeeeee" />
 
   <splash src="res/splash.png" />
   <splash src="res/splash.png" platform="android" />
@@ -32,8 +32,8 @@
 
     <preference name="InAppBrowserStorageEnabled" value="false"/>
     <preference name="LoadingDialog" value="Sudoku,Sudoku wird geladen"/>
-    <preference name="OverrideUserAgent" value="Mozilla/5.0 My Browser" />
-    <preference name="AppendUserAgent" value="My Browser" />
+    <preference name="OverrideUserAgent" value="Mozilla/5.0 Sudoku Android App" />
+    <preference name="AppendUserAgent" value="Sudoku Android App" />
   </platform>
 
 </widget>
