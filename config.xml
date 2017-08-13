@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "de.timsp.sudoku"
-    version     = "0.2.0" >
+    version     = "0.2.1" >
 
   <plugin name="cordova-plugin-statusbar" spec="2.2.3" />
 
@@ -16,11 +16,11 @@
       Tim Spickermann
   </author>
 
-  <preference name="BackgroundColor" value="0xffeeeeee"/>
-  <preference name="StatusBarBackgroundColor" value="#eeeeee" />
+  <preference name="BackgroundColor" value="0xff555555"/>
+  <preference name="StatusBarBackgroundColor" value="#333333" />
 
-  <splash src="res/splash.png" />
-  <splash src="res/splash.png" platform="android" />
+  <splash src="res/sudoku_splash.jpg" />
+  <splash src="res/sudoku_splash.jpg" platform="android" />
   <preference name="SplashScreenDelay" value="2000" />
 
   <platform name="android">
